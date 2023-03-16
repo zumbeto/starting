@@ -1,0 +1,160 @@
+/***
+COLOR SCHEME
+#C8EBE4 - Adriatic Mist
+#00A698 - Lagoon Breeze
+#007098 - Ocean Blue
+***/
+
+/*** Universal Styles ***/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*** HEADING ***/
+
+.heading {
+    text-align: center;
+}
+
+.heading .heading-main {
+    color: #e4f2ff;
+    background-color: #007098;
+    padding: 3rem 2rem 3rem 2rem;
+    font-size: 4rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    border-bottom: 1px solid #e4f2ff;
+}
+
+/*** COMMON STYLING ***/
+
+.container {
+    margin: 0 auto;
+    padding: 0 15rem 0 15rem;
+}
+
+.section-heading {
+    color: #e4f2ff;
+    font-size: 3rem;
+    font-family: 'Work Sans', 'Roboto Mono', monospace;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    line-height: 1.5;
+    padding: 10rem 0 1rem 0;
+    text-align: center;
+}
+
+.section-description {
+    color: #e4f2ff;
+    font-size: 1.7rem;
+    font-family: 'Work Sans', 'Roboto Mono', monospace;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    word-spacing: -0.1rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 2rem 0 2rem 0;
+    
+}
+
+/*** LOGO SECTION ***/
+
+.logo {
+    width: 100vw;
+    height: 65vh;
+    background-color: #007098;
+}
+
+.logo-container {
+    display: block;
+    width: 65rem;
+    margin: 0 auto;
+}
+
+.logo-symbol {
+    color: #e4f2ff;
+    font-size: 2.3rem;
+    font-family: 'Work Sans', 'Roboto Mono', monospace;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    line-height: 1.5;
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+}
+
+.logo-box {
+    background-color: #e4f2ff;
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.209);
+}
+
+.logo-icon {
+    font-size: 18rem;
+    color: #007098;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*** COLORS SECTION ***/
+
+.colors {
+    background-color: #e4f2ff;
+    width: 100vw;
+    height: 65vh;
+}
+
+.colors-container {
+    display: block;
+    width: 65rem;
+    margin: 0 auto;
+}
+
+.colors-box {
+    width: 30%;
+    min-height: 30rem;
+    display: inline-block;
+    margin: 3rem 1rem 3rem 1rem;
+    text-align: center;
+    box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.209);
+}
+
+.colors-name, .colors-code {
+    font-size: 1.6rem;
+    padding: 7.5rem 0 1rem 0;
+}
+
+/*** UTILITY CLASSES ***/
+
+.txt-color {
+    color: #007098;
+}
+
+.ocean {
+    background-color: #007098;
+}
+
+.lagoon {
+    background-color: #00A698;
+}
+
+.adriatic {
+    background-color: #C8EBE4;
+}
+
