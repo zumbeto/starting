@@ -31,6 +31,7 @@ html {
 .heading .heading-main {
     color: #e4f2ff;
     background-color: #007098;
+    /*background: linear-gradient(-185deg, rgba(2,0,36,1) 0%, rgb(0, 77, 106) 44%, rgba(0,212,255,1) 100%);*/
     padding: 3rem 2rem 3rem 2rem;
     font-size: 4rem;
     font-family: 'Roboto Mono', monospace;
@@ -73,7 +74,9 @@ html {
 .logo {
     width: 100vw;
     height: 65vh;
+    box-shadow: .5rem .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
     background-color: #007098;
+    /*background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(0,112,152,1) 44%, rgba(0,212,255,1) 100%);*/
 }
 
 .logo-container {
@@ -116,6 +119,7 @@ html {
     background-color: #e4f2ff;
     width: 100vw;
     height: 65vh;
+    box-shadow: .5rem .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
 }
 
 .colors-container {
@@ -149,7 +153,7 @@ html {
 }
 
 .lagoon {
-    background-color: #00A698;
+    background-color: #00a698;
 }
 
 .adriatic {
