@@ -19,6 +19,7 @@ body {
 
 html {
     font-size: 62.5%;
+    font-family: 'Work Sans', 'Roboto Mono', monospace;
 }
 
 /*** HEADING ***/
@@ -47,8 +48,7 @@ html {
 
 .section-heading {
     color: #e4f2ff;
-    font-size: 3rem;
-    font-family: 'Work Sans', 'Roboto Mono', monospace;
+    font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
     line-height: 1.5;
@@ -59,7 +59,6 @@ html {
 .section-description {
     color: #e4f2ff;
     font-size: 1.7rem;
-    font-family: 'Work Sans', 'Roboto Mono', monospace;
     font-weight: 100;
     letter-spacing: .2rem;
     word-spacing: -0.1rem;
@@ -86,7 +85,6 @@ html {
 .logo-symbol {
     color: #e4f2ff;
     font-size: 2.3rem;
-    font-family: 'Work Sans', 'Roboto Mono', monospace;
     font-weight: 300;
     letter-spacing: .2rem;
     line-height: 1.5;
@@ -127,7 +125,7 @@ html {
 }
 
 .colors-box {
-    width: 30%;
+    width: 29.8%;
     min-height: 30rem;
     display: inline-block;
     margin: 3rem 1rem 3rem 1rem;
