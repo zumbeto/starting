@@ -34,7 +34,7 @@ html {
 
 #heading .heading-main {
     color: #e4f2ff;
-    background-color: #007098;
+    background-color: #00374C;
     padding: 3rem 2rem 3rem 2rem;
     font-size: 4rem;
     font-family: 'Roboto Mono', monospace;
@@ -80,8 +80,8 @@ html {
 .logo {
     width: 100vw;
     min-height: 65vh;
-    box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
-    background-color: #007098;
+    background: rgb(0, 66, 91);
+    background: linear-gradient(180deg, rgb(0, 66, 91) 0%, rgb(3, 91, 124) 40%, rgb(0, 153, 209) 100%);
 }
 
 .logo-container {
@@ -126,7 +126,6 @@ html {
     background-color: #e4f2ff;
     width: 100vw;
     min-height: 65vh;
-    box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
 }
 
 .colors-container {
@@ -156,8 +155,8 @@ html {
 .fonts {
     width: 100vw;
     min-height: 65vh;
-    box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
-    background-color: #00a698;  
+    background: rgba(1,105,96,1);
+    background: linear-gradient(360deg, rgba(1,105,96,1) 0%, rgba(2,135,124,1) 40%, rgb(0, 210, 192) 100%);
 }
 
 .fonts-container {
@@ -221,8 +220,9 @@ ul li:not(:first-child) {
 .text-styles {
     width: 100vw;
     min-height: 65vh;
-    box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
     background-color: #C8EBE4;
+    /*background: rgb(124, 163, 156);
+    background: linear-gradient(180deg, rgb(124, 163, 156) 0%, rgb(147, 188, 179) 50%, rgba(200,235,228,1) 100%);*/
 }
 
 .text-styles-container {
@@ -234,6 +234,7 @@ ul li:not(:first-child) {
     display: inline-block;
     width: 20%;
     margin: 10rem 0 2rem 12rem;
+    color: #007098;
 }
 
 .text-styles-main {
