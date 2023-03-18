@@ -5,7 +5,9 @@ COLOR SCHEME
 #007098 - Ocean Blue
 ***/
 
-/****************************** Universal Styles ******************************/
+
+/*** Universal Styles ***/
+
 
 * {
     padding: 0;
@@ -22,7 +24,9 @@ html {
     font-family: 'Work Sans', 'Roboto Mono', monospace;
 }
 
-/****************************** HEADING ******************************/
+
+/*** HEADING ***/
+
 
 #heading {
     text-align: center;
@@ -40,7 +44,9 @@ html {
     border-bottom: 1px solid #e4f2ff;
 }
 
-/****************************** COMMON STYLING ******************************/
+
+/*** COMMON STYLING ***/
+
 
 .container {
     margin: 0 auto;
@@ -65,10 +71,11 @@ html {
     line-height: 1.5;
     text-align: justify;
     padding: 2rem 0 2rem 0;
-    
 }
 
-/****************************** LOGO SECTION ******************************/
+
+/*** LOGO SECTION ***/
+
 
 .logo {
     width: 100vw;
@@ -111,7 +118,9 @@ html {
     transform: translate(-50%, -50%);
 }
 
-/****************************** COLORS SECTION ******************************/
+
+/*** COLORS SECTION ***/
+
 
 .colors {
     background-color: #e4f2ff;
@@ -140,14 +149,15 @@ html {
     padding: 7.5rem 0 1rem 0;
 }
 
-/****************************** FONTS SECTION ******************************/
+
+/*** FONTS SECTION ***/
+
 
 .fonts {
     width: 100vw;
     min-height: 65vh;
     box-shadow: 0 .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
-    background-color: #00a698;
-    
+    background-color: #00a698;  
 }
 
 .fonts-container {
@@ -189,7 +199,9 @@ html {
     padding: 1rem 0 1rem 0;
 }
 
-/****************************** TEXT STYLES SECTION ******************************/
+
+/*** TEXT STYLES SECTION ***/
+
 
 ul {
     margin-top: 5rem;
@@ -249,7 +261,9 @@ ul li:not(:first-child) {
     margin-left: -1rem;
 }
 
-/****************************** UTILITY CLASSES ******************************/
+
+/*** UTILITY CLASSES ***/
+
 
 .txt-color {color: #007098;}
 
@@ -271,7 +285,9 @@ ul li:not(:first-child) {
 
 .monospace {font-family: monospace, 'Roboto Mono', 'Work Sans';}
 
-/****************************** MEDIA QUERIES ******************************/
+
+/***MEDIA QUERIES ***/
+
 
 @media only screen and (max-width: 2420px) {
     
